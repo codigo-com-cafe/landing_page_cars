@@ -17,7 +17,7 @@
   --white-color: #fff;
   /* --body-color: hsl(219, 4%, 4%); */
   
-  --body-color: hsl(283, 89%, 7%);
+  --body-color: rgb(0, 0, 0);
   --container-color: hsl(219, 4%, 7%);
 
   /*========== My Custom Font and typography ==========*/
@@ -101,7 +101,7 @@ img {
 }
 
 .section {
-  padding: 4.5rem 0 2rem;
+  padding: 2.5rem 0 2rem;
 }
 
 .section__title {
@@ -762,7 +762,7 @@ transform: scale(1.2);
 .gallery__container video{
   z-index: 000;
   position: absolute;
-  opacity: .1;
+  opacity: .2;
   bottom: 0;
   
   left: 0;
@@ -996,9 +996,6 @@ transform: scale(1.2);
   }
 }
 @media screen and (min-width: 767px) {
-  .section{
-    padding: 7rem 0 2rem;
-  }
   .nav{
     /* margin-top: 1rem;
     margin-bottom: 1rem;
